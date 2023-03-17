@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-banner {
+  text-align: center;
+  background-color: #006400;
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+
+.countdown {
+  position: absolute;
+  font-size: 2em;
+  background-color: #006400;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .title-banner {
+    font-size: 24px;
+    padding: 15px;
+  }
+
+  .countdown {
+    font-size: 2em;
+    padding: 10px;
+  }
+}
+/* Add this code at the end of your styles.css */
+.poll-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5rem;
+}
+
+.option {
+  margin-bottom: 1.5rem;
+}
+
+.option input[type="radio"] {
+  margin-right: 0.5rem;
+}

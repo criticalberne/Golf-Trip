@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Catfish Open 2023</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="title-banner">Catfish Open 2023</h1>
+  </header>
+  <main>
+    <div class="countdown" id="countdown"></div>
+    <!-- Add this code after the floating countdown div -->
+    <div class="poll-container">
+      <h2>Vote for Your Preferred Golf Club < 90 Minute Edition</h2>
+          <form id="golfClubPoll">
+            <div class="option">
+              <input type="radio" id="shepherdsHollow" name="golfClub" value="Shepherd's Hollow Golf Club">
+              <label for="shepherdsHollow">Shepherd's Hollow Golf Club (45-minute drive)</label>
+              <p>Shepherd's Hollow Golf Club in Clarkston is a beautiful 27-hole public golf
+                course
+                set among 350 acres of pristine woodlands. The Arthur Hills-designed course offers a picturesque and
+                challenging golf experience.</p>
+            </div>
+            <div class="option">
+              <input type="radio" id="orchardsGolfClub" name="golfClub" value="The Orchards Golf Club">
+              <label for="orchardsGolfClub">The Orchards Golf Club (60-minute drive)</label>
+              <p>The Orchards Golf Club in Washington is a public 18-hole championship course
+                designed by Robert Trent Jones Jr. The course is well-regarded for its well-manicured fairways, fast
+                greens,
+                and strategic bunkering.</p>
+            </div>
+            <div class="option">
+              <input type="radio" id="tanglewoodGolfClub" name="golfClub" value="Tanglewood Golf Club">
+              <label for="tanglewoodGolfClub">Tanglewood Golf Club (75-minute drive)</label>
+              <p>Tanglewood Golf Club in South Lyon features the public 27-hole "Lions, Tigers, and Bears" courses
+                designed
+                by William Newcomb. Each nine-hole course offers a unique challenge for golfers of all skill levels,
+                with
+                beautiful scenery and well-maintained grounds.</p>
+            </div>
+            <div class="option">
+              <input type="radio" id="eagleeyeGolfClub" name="golfClub" value="Eagle Eye Golf Club">
+              <label for="eagleeyeGolfClub">Eagle Eye Golf Club (90-minute drive)</label>
+              <p>Eagle Eye Golf Club in Bath is a public 18-hole championship golf course designed by Pete Dye and Chris
+                Lutzke. Known for its challenging layout and stunning visuals, Eagle Eye is consistently ranked among
+                the
+                best public courses in Michigan.</p>
+            </div>
+            <div class="option">
+              <input type="radio" id="magesticGolfClub" name="golfClub" value="The Majestic at Lake Walden">
+              <label for="magesticGolfClub">The Majestic at Lake Walden (55-minute drive)</label>
+              <p>Located in Hartland, The Majestic at Lake Walden is a 27-hole public golf course designed by Jerry
+                Matthews. Set amid beautiful hardwood forests, wetlands, and lakes, this course offers a challenging yet
+                enjoyable golfing experience, with each nine-hole layout providing a unique test of skill.</p>
+            </div>
+            <!-- Add more options as needed -->
+            <button type="submit">Vote</button>
+          </form>
+          <!-- Add this code inside the poll-container div, after the form -->
+          <div class="vote-count">
+            <h3>Vote Count</h3>
+            <ul id="voteCountList">
+              <!-- The vote counts will be displayed here -->
+            </ul>
+          </div>
+
+    </div>
+
+  </main>
+</body>
+
+</html>
